@@ -1,0 +1,7 @@
+.classpath
+.project
+.settings/
+ivy/
+build/
+lib/
+lifecoach.sqlite
