@@ -16,7 +16,7 @@ public class PeoplePublisher {
         {
             HOSTNAME = "localhost";
         }
-        String PORT = "3100";
+        String PORT = "5555";
         String BASE_URL = "/ws/people";
 
         if (String.valueOf(System.getenv("PORT")) != "null"){

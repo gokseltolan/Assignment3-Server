@@ -66,7 +66,6 @@ public interface People {
     @WebResult(name="personId") 
     public int createLifeStatus(@WebParam(name="personId") int id, @WebParam(name="lifeStatus") LifeStatus ls);
     
-    
     @WebMethod(operationName="updatePersonHealthProfile")
     @WebResult(name="hpId") 
     public int updatePersonHP(@WebParam(name="personId") int id, @WebParam(name="healthProfile") LifeStatus hp);
